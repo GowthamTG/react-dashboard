@@ -1,0 +1,42 @@
+.side-nav {
+  /* height: 100%; */
+  /* position: fixed; */
+  /* padding: 1rem; */
+  background: #2c2f34;
+  border-right: 1px solid #7f7f7f;
+}
+
+.logo-box {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.logo {
+  display: flex;
+  font-size: 2rem;
+  color: #7f7f7f;
+}
+
+.logo-text {
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0rem 0.5rem;
+  font-size: 1.5rem;
+  color: #7f7f7f;
+}
+
+.side-nav-content {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.side-nav-group {
+  display: flex;
+  flex-direction: column;
+}

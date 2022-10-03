@@ -1,0 +1,28 @@
+.side-nav-content-hello,
+.side-nav-content-username {
+  color: #adaeb0;
+}
+
+.side-nav-item-greet {
+  /* border: 2px solid red; */
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-content-image-box {
+  display: none;
+}
+
+.nav-content-image {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100rem;
+}
+
+.side-nav-group {
+  display: flex;
+  flex-direction: column;
+}

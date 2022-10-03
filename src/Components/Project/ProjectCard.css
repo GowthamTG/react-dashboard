@@ -1,0 +1,29 @@
+.project-card {
+  border-left: 10px solid #5d4293;
+  border-right: 10px solid transparent;
+
+  /* height: 150px; */
+  flex: 1 0 32%;
+  min-width: 250px;
+  background: #2c2f34;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.project-card-heading {
+  color: #adaeb0;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+.project-card-content {
+  font-size: 0.8rem;
+  color: #626568;
+  margin-bottom: 1rem;
+}
+.project-card-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
